@@ -1,0 +1,2 @@
+module BoardGamesHelper
+end
