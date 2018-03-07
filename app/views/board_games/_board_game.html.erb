@@ -1,0 +1,14 @@
+<h2><%= board_game.name %></h2>
+<p>
+  <strong>Rating:</strong>
+  <%= board_game.rating %>
+</p>
+<p>
+  <strong>Category:</strong>
+  <%= board_game.category.name %>
+</p>
+<% if show_details_link %>
+  <p>
+    <%= link_to 'View Details', board_game %>
+  </p>
+<% end %>
