@@ -8,7 +8,7 @@
   <%= board_game.category.name %>
 </p>
 <% if board_game.image.present? %>
-  <p><%= image_tag board_game.image %></p>
+  <p><%= image_tag board_game.image, width: 200 %></p>
 <% end %>
 <% if show_details_link %>
   <p>
