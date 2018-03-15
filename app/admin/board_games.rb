@@ -12,6 +12,6 @@ ActiveAdmin.register BoardGame do
 #   permitted
 # end
 
-  permit_params :name, :rating, :category_id
+  permit_params :name, :rating, :category_id, :image
 
 end
